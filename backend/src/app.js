@@ -10,4 +10,10 @@ app.use(express.json());
 
 app.use("/feed", feedRoutes);
 
+app.get("/", (req, res) => {
+  res.json({
+    message: "SYNCUP Backend Running",
+  });
+});
+
 module.exports = app;
