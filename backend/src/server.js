@@ -16,7 +16,7 @@ const io = new Server(server, {
   cors: {
     origin: [
       "http://localhost:3000",
-      "https://YOUR-VERCEL-URL.vercel.app"
+      "https://sync-up-coaching-feed-application.vercel.app"
     ]
   },
 });
